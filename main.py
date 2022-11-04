@@ -258,8 +258,8 @@ def chat(user_input):
 with header:
     st.title('Welcome to Greatlearning CHAT-BOT!!!')
     # st.text('Please Enter your query, The bot will respond')
-with features:
-    st.header('Chat-Bot Available...You can type your query!!!')
+# with features:
+#     st.header('Chat-Bot Available...You can type your query!!!')
 
 def get_text():
     input_text = st.text_input("You: ","So, What's in your mind")
@@ -272,7 +272,7 @@ def get_text():
 user_input = get_text()
 if True:
     if run_bot == 'Yes':
-        st.text_area("Bot: ",value=chat(user_input))
+        st.text_area("Bot: ",value=chat(user_input),height=200,max_chars=None,key=None)
     else:
         st.text_area("Bot:", value="Please start the bot by clicking sidebar radio button", height=200, max_chars=None, key=None)
 else:
