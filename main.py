@@ -252,7 +252,6 @@ def chat(user_input):
         if ints[0]['intent'] == 'Exit':
             responses = response(message)
             # break
-            run_bot = 'No'
         else:
             responses = response(message)
         return responses
