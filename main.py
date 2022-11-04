@@ -12,7 +12,7 @@ features = st.container()
 modelTraining = st.container()
 import random
 import json
-import pickle
+# import pickle
 import nltk
 from nltk.stem.lancaster import  LancasterStemmer
 stemmer = LancasterStemmer()
