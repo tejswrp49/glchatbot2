@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/dae/PycharmProjects/glchatbot2/model.tflearn"
+all_model_checkpoint_paths: "/home/dae/PycharmProjects/glchatbot2/model.tflearn"
