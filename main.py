@@ -12,8 +12,10 @@ features = st.container()
 modelTraining = st.container()
 import random
 import json
+
 # import pickle
 import nltk
+nltk.download('punkt')
 from nltk.stem.lancaster import  LancasterStemmer
 stemmer = LancasterStemmer()
 run_bot = True
@@ -108,7 +110,7 @@ for intent in corpus['intents']:
       classes.append(intent['tag'])
       responses.append(intent['responses'])
 
-stemmer = LancasterStemmer()
+# stemmer = LancasterStemmer()
 words = [stemmer.stem(w.lower()) for w in words if w not in ignore_words]
 words = sorted(list(set(words)))
 #remove duplicates
