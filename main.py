@@ -2,11 +2,10 @@ import requests
 import streamlit as st
 import pandas as pd
 import numpy as np
-from streamlit_chat import message
+# from streamlit_chat import message
 import json
 import tflearn
 import tensorflow as tf
-# from chatterbot.trainers import ListTrainer
 header = st.container()
 dataset = st.container()
 features = st.container()
