@@ -2,8 +2,3 @@ streamlit
 requests
 tflearn
 tensorflow
-message
-nltk
-random
-json
-pickle
