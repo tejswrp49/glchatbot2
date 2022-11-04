@@ -3,3 +3,4 @@ requests
 tflearn
 tensorflow
 nltk
+nltk.word_tokenize
