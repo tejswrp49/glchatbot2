@@ -275,6 +275,6 @@ if True:
     if run_bot == 'Yes':
         st.text_area("Bot: ",value=chat(user_input))
     else:
-        st.text_area("Bot:", value="Please start the bot by clicking sidebar button", height=200, max_chars=None, key=None)
+        st.text_area("Bot:", value="Please start the bot by clicking sidebar radio button", height=200, max_chars=None, key=None)
 else:
-    st.text_area("Bot:", value="Please start the bot by clicking sidebar button", height=200, max_chars=None, key=None)
+    st.text_area("Bot:", value="Please start the bot by clicking sidebar radio button", height=200, max_chars=None, key=None)
