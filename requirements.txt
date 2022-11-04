@@ -2,3 +2,5 @@ streamlit
 requests
 tflearn
 tensorflow
+message
+nltk
